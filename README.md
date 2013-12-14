@@ -12,3 +12,15 @@ This is all possible today in JavaScript with a few sweet.js macros.
 
 This is still being researched so I'm not going to go into details
 just yet.
+
+```js
+defineRecord Point {
+    x : double,
+    y : double
+}
+
+Point foo;
+
+foo.x;
+foo.y;
+```
